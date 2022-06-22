@@ -1,0 +1,42 @@
+/* utility class */
+.center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+/* element styling */
+main{
+    background-color: rgba(128, 0, 128, 0.183);
+    height: 100vh;
+}
+label{
+    width: 100%;
+    padding: 2px;
+    margin: 5px;
+    font-size: 1.25rem;
+    text-align: start;
+}
+
+input{
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #333;
+}
+input:focus{
+    outline: purple 1px solid;
+}
+#submit{
+padding: 10px;
+border-radius: 10px;
+width: 75%;
+border: 1px solid #333;
+background: #fff;
+}
+
+#submit:hover{
+    background: rgba(128, 0, 128, 0.459);
+}
+#submit:active{
+    background: rgba(204, 204, 204, 0.403);
+}
